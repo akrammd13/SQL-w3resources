@@ -4,7 +4,7 @@ USE w3resources
 GO
 
 -- First Insert some inputs the 'Employees' table
-INSERT INTO Employees (ID, Name, Age, Salary, DepartmentID)
+INSERT INTO Employees (EmployeeID, Name, Age, Salary, Department)
 VALUES 
 (1, 'John Doe', 28, 40000, 101),
 (2, 'Priya Sharma', 32, 55000, 102),
