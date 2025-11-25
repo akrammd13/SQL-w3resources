@@ -73,4 +73,21 @@ Sample table: nobel_win
 
 SELECT year, subject, winner, country, category
 FROM Nobel_win
-WHERE subject 
+WHERE (subject = 'Physiology' and year < 1971) OR (subject = 'Peace' and year >= 1974);
+
+/*
+22. Details of Johannes Georg Bednorz
+From the following table, write a SQL query to find the details of the Nobel Prize winner 'Johannes Georg Bednorz'. Return year, subject, winner, country, and category.
+Sample table : nobel_win
+*/
+
+SELECT year, subject, winner, country, category
+FROM Nobel_win
+WHERE winner = 'Johannes Georg Bednorz';
+
+/*
+23. Winners Excluding Subjects Starting with P
+From the following table, write a SQL query to find Nobel Prize winners for the subject that does not begin with the letter 'P'. Return year, subject, winner, country, and category. Order the result by year, descending.
+Sample table : nobel_win
+*/
+
