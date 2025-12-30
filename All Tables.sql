@@ -1,3 +1,5 @@
+USE w3resources
+
 SELECT * FROM customer_3
 
 SELECT * FROM orders_3
@@ -11,3 +13,5 @@ SELECT * FROM testtable
 select * from item_mast
 
 select * from emp_department;
+
+select * from company_mast;
